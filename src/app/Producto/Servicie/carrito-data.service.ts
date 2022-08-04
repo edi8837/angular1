@@ -5,7 +5,7 @@ import { Producto } from '../producto';
 import { environment } from 'src/environments/environment';
 
 const URL = 'http://localhost:8080/detalle1/create';
-const url1 = 'http://localhost:8080/create
+const url1 = 'http://localhost:8080/create';
 
 @Injectable({
   providedIn: 'root'
