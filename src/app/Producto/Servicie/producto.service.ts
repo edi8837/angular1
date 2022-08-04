@@ -11,7 +11,7 @@ export class ProductoService {
   //Esta URL obtiene los productos de backend
   private baseURL = "http://localhost:8888/Heladeria/productos";
   private urlCuenca = "http://localhost:8080/productos/sucursal/Heladeria1";
-  private filtro = "http://localhost:8080/productos/sucursal/Giron";
+  private filtro = "http://localhost:8888/Heladeria/productos/sucursal/Giron";
 
   constructor(private httpClient : HttpClient) { }
 
